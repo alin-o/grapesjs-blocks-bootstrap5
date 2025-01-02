@@ -5,7 +5,7 @@ export const LabelBlock = (bm, label) => {
         label: `
       ${labelIcon}
       <div>${label}</div>`,
-        category: 'Forms',
+        category: 'Forms (Bootstrap)',
         content: '<label>Label</label>',
     });
 };

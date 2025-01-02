@@ -6,7 +6,7 @@ export const TextBlock = (bm, label) => {
             ${fontIcon}
             <div>${label}</div>
         `,
-        category: 'Typography',
+        category: 'Typography (Bootstrap)',
         content: {
             type: 'text',
             content: 'Insert your text here'

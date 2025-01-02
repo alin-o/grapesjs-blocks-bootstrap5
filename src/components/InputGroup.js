@@ -6,7 +6,7 @@ export const InputGroupBlock = (bm, label, c) => {
     label: `
       ${formGroupIcon}
       <div>${label}</div>`,
-    category: 'Forms',
+    category: 'Forms (Bootstrap)',
     content: `
       <div class="mb-3">
         <label>Name</label>
@@ -19,7 +19,7 @@ export const InputGroupBlock = (bm, label, c) => {
     label: `
       ${inputGroupIcon}
       <div>${label}</div>`,
-    category: 'Forms',
+    category: 'Forms (Bootstrap)',
     content: `
       <div class="input-group">
         <div class="input-group-prepend">

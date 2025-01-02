@@ -11,7 +11,7 @@ export const LinkBlock = (bm, label) => {
             ${linkIcon}
             <div>${label}</div>
         `,
-        category: 'Basic',
+        category: 'Basic (Bootstrap)',
         content: {
             type: 'link',
             content: 'Link text'

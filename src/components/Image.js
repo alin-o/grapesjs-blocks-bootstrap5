@@ -6,7 +6,7 @@ export const ImageBlock = (bm, label) => {
             ${imageIcon}
             <div>${label}</div>
         `,
-        category: 'Media',
+        category: 'Media (Bootstrap)',
         content: {
             type: 'bs-image'
         }

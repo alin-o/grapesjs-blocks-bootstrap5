@@ -5,7 +5,7 @@ export const InputBlock = (bm, label) => {
         label: `
       ${inputIcon}
       <div>${label}</div>`,
-        category: 'Forms',
+        category: 'Forms (Bootstrap)',
         content: '<input name="input1" class="form-control"/>',
     });
 };

@@ -6,7 +6,7 @@ export const RowBlock = (bm, label) => {
             ${windowIcon}
             <div>${label}</div>
         `,
-        category: 'Layout',
+        category: 'Layout (Bootstrap)',
         content: {
             type: 'row',
             classes: ['row']

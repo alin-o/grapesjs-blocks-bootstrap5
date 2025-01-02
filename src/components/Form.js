@@ -5,7 +5,7 @@ export const FormBlock = (bm, label) => {
         label: `
       ${formIcon}
       <div>${label}</div>`,
-        category: 'Forms',
+        category: 'Forms (Bootstrap)',
         content: `
         <form>
           <div class="mb-3">

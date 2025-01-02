@@ -6,7 +6,7 @@ export const CardBlock = (bm, c) => {
             ${cardIcon}
             <div>${c.labels.card}</div>
         `,
-    category: 'Components',
+    category: 'Components (Bootstrap)',
     content: {
       type: 'card'
     }
@@ -16,7 +16,7 @@ export const CardBlock = (bm, c) => {
             ${cardIcon}
             <div>${c.labels.card_container}</div>
         `,
-    category: 'Components',
+    category: 'Components (Bootstrap)',
     content: {
       type: 'card_container'
     }

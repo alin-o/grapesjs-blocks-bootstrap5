@@ -6,7 +6,7 @@ import { capitalize } from "../utils";
 export const ButtonBlock = (bm, label) => {
     bm.add('button', {
         label: `${buttonIcon}<div>${label}</div>`,
-        category: 'Forms',
+        category: 'Forms (Bootstrap)',
         content: '<button class="btn btn-primary">Send</button>',
     });
 };
