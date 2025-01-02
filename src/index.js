@@ -49,7 +49,7 @@ const loadCss = editor => {
   `
 };
 
-export default grapesjs.plugins.add('grapesjs-blocks-bootstrap5', (editor, opts = {}) => {
+export default PluginManager.add('grapesjs-blocks-bootstrap-5', (editor, opts = {}) => {
 
   window.editor = editor;
 

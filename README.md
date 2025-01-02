@@ -1,12 +1,11 @@
-# GrapesJS Bootstrap v4 Blocks Plugin
+# GrapesJS Bootstrap v5 Blocks Plugin
 
 [![npm](https://img.shields.io/npm/v/grapesjs-blocks-bootstrap5.svg)](https://www.npmjs.com/package/grapesjs-blocks-bootstrap5)
 
-<!--<span><a href="https://david-dm.org/z1lk/grapesjs-plugin-boilerplate#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/artf/grapesjs-plugin-boilerplate.svg" alt="Dev Dependency Status" /></a></span>-->
+This is a Bootstrap 5 blocks plugin for GrapesJS that is derived from the [Bootstrap 4 plugin](https://github.com/kaoz70/grapesjs-blocks-bootstrap4)
+from [Miguel Suarez](https://github.com/kaoz70). Both the of these plugins are being integrated into [Cosmos](https://github.com/MoonriseSoftwareCalifornia/CosmosCMS).
 
-<!--<a rel="nofollow" href="https://app.codesponsor.io/link/nb9nPYf2XqCE1PbgcQj6gf4D/artf/grapesjs-plugin-boilerplate">
-  <img alt="Sponsor" width="888" height="68" src="https://app.codesponsor.io/embed/nb9nPYf2XqCE1PbgcQj6gf4D/artf/grapesjs-plugin-boilerplate.svg"/>
-</a>-->
+Note: Any help with maintaining this project is greately appreciated as I'm not a GrapesJS expert!
 
 ## Summary
 
