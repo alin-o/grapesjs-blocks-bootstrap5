@@ -1,6 +1,6 @@
 {
     "name": "@toiyabe/grapesjs-blocks-bootstrap-5",
-    "version": "9.0.6",
+    "version": "9.0.10",
     "description": "GrapesJS Bootstrap v5 Blocks plugin.",
     "main": "dist/grapesjs-blocks-bootstrap-5.min.js",
     "scripts": {
