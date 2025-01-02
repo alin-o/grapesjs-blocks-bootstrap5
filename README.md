@@ -189,19 +189,6 @@ etc.
 </script>
 ```
 
-
-
-
-
-## Development
-
-Clone the repository
-
-```sh
-$ git clone [https://github.com/kaoz70/grapesjs-blocks-bootstrap5.git](https://github.com/MoonriseSoftwareCalifornia/grapesjs-blocks-bootstrap5.git)](https://github.com/MoonriseSoftwareCalifornia/grapesjs-blocks-bootstrap5.git)
-$ cd grapesjs-blocks-bootstrap5
-```
-
 Install dependencies
 
 ```sh
