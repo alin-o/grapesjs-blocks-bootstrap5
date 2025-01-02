@@ -1,6 +1,6 @@
 # GrapesJS Bootstrap v5 Blocks Plugin
 
-[![npm](https://img.shields.io/npm/v/grapesjs-blocks-bootstrap-5.svg)](https://www.npmjs.com/package/grapesjs-blocks-bootstrap-5)
+[![npm](https://img.shields.io/npm/v/@toiyabe/grapesjs-blocks-bootstrap-5.svg)](https://www.npmjs.com/package/@toiyabe/grapesjs-blocks-bootstrap-5)
 
 This is a Bootstrap 5 blocks plugin for GrapesJS that is derived from the [Bootstrap 4 plugin](https://github.com/kaoz70/grapesjs-blocks-bootstrap4)
 from [Miguel Suarez](https://github.com/kaoz70). Both the of these plugins are being integrated into [Cosmos](https://github.com/MoonriseSoftwareCalifornia/CosmosCMS).
