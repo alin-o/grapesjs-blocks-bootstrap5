@@ -207,10 +207,3 @@ Start the dev server
 $ npm start
 ```
 
-
-
-
-
-## License
-
-BSD 3-Clause
