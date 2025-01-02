@@ -9,7 +9,7 @@ Note: Any help with maintaining this project is greately appreciated as I'm not 
 
 ## Summary
 
-* Plugin name: `grapesjs-blocks-bootstrap5`
+* Plugin name: `@toiyabe/grapesjs-blocks-bootstrap-5`
 * Components (see Options for list of Blocks)
   * Layout
     * `container`
