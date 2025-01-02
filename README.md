@@ -141,7 +141,7 @@ etc.
 * NPM
   * `npm i @toiyabe/grapesjs-blocks-bootstrap-5`
 * GIT
-  * `git clone https://github.com/kaoz70/grapesjs-blocks-bootstrap5.git`
+  * `git clone https://github.com/MoonriseSoftwareCalifornia/grapesjs-blocks-bootstrap5.git
 
 
 
