@@ -7,6 +7,8 @@ from [Miguel Suarez](https://github.com/kaoz70). Both the of these plugins are b
 
 Note: Any help with maintaining this project is greately appreciated as I'm not a GrapesJS expert!
 
+Lastly, thanks to [Abi Rana](https://hashnode.com/@abirana) for the exellent summary of class changes between Bootstrap 4 and 5 in the article: "[All the class name changes migrating from Bootstrap 4 to Bootstrap 5](https://blog.abirana.com/how-to-migrate-convert-bootstra-4-to-bootstrap-5)" (March 11, 2021).
+
 ## Summary
 
 * Plugin name: `@toiyabe/grapesjs-blocks-bootstrap-5`
