@@ -24,7 +24,7 @@ export default (domc, editor) => {
         model: {
             defaults: Object.assign({}, defaultModel.prototype.defaults, {
                 'custom-name': 'Column',
-                draggable: '.row',
+                draggable: '.row, twig',
                 droppable: true,
                 resizable: {
                     updateTarget: (el, rect, opt) => {

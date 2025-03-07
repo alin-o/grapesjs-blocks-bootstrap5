@@ -8,7 +8,7 @@ export default (editor, config = {}) => {
         events: {
             'change': 'onChange'  // trigger parent onChange method on input change
         },
-        createInput({trait}) {
+        createInput({ trait }) {
             const md = this.model;
             const opts = md.get('options') || [];
             const input = document.createElement('select');
@@ -29,7 +29,7 @@ export default (editor, config = {}) => {
                 const value_a = value.split(' ');
                 const intersection = css.filter(x => value_a.includes(x));
 
-                if(intersection.length === value_a.length) {
+                if (intersection.length === value_a.length) {
                     option.setAttribute('selected', 'selected');
                 }
 
@@ -37,7 +37,7 @@ export default (editor, config = {}) => {
             }
             return input;
         },
-        onUpdate({elInput, component}) {
+        onUpdate({ elInput, component }) {
             const classes = component.getClasses();
             const opts = this.model.get('options') || [];
             for (let i = 0; i < opts.length; i++) {
@@ -50,7 +50,7 @@ export default (editor, config = {}) => {
             elInput.value = "GJS_NO_CLASS";
         },
 
-        onEvent({elInput, component, event}) {
+        onEvent({ elInput, component, event }) {
             const classes = this.model.get('options').map(opt => opt.value);
             for (let i = 0; i < classes.length; i++) {
                 if (classes[i].length > 0) {
@@ -99,25 +99,4 @@ export default (editor, config = {}) => {
             return this.inputEl;
         }
     });
-
-    tm.addType('content', {
-        events: {
-            'keyup': 'onChange',
-        },
-
-        onValueChange: function () {
-            const md = this.model;
-            const target = md.target;
-            target.set('content', md.get('value'));
-        },
-
-        getInputEl: function () {
-            if (!this.inputEl) {
-                this.inputEl = textTrait.prototype.getInputEl.bind(this)();
-                this.inputEl.value = this.target.get('content');
-            }
-            return this.inputEl;
-        }
-    });
-
 }
